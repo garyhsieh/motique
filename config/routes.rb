@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Motique::Application.routes.draw do
   resources :motivators
 
@@ -18,25 +17,6 @@ Motique::Application.routes.draw do
   #   resources :products
 
   # Sample resource route with options:
-=======
-FirstApp::Application.routes.draw do
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
-
-  # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
-
-  # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Example resource route with options:
->>>>>>> 95dc8c639a8344b695ac56b4b1871601f0a1c2df
   #   resources :products do
   #     member do
   #       get 'short'
@@ -48,17 +28,12 @@ FirstApp::Application.routes.draw do
   #     end
   #   end
 
-<<<<<<< HEAD
   # Sample resource route with sub-resources:
-=======
-  # Example resource route with sub-resources:
->>>>>>> 95dc8c639a8344b695ac56b4b1871601f0a1c2df
   #   resources :products do
   #     resources :comments, :sales
   #     resource :seller
   #   end
 
-<<<<<<< HEAD
   # Sample resource route with more complex sub-resources
   #   resources :products do
   #     resources :comments
@@ -68,30 +43,11 @@ FirstApp::Application.routes.draw do
   #   end
 
   # Sample resource route within a namespace:
-=======
-  # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', on: :collection
-  #     end
-  #   end
-
-  # Example resource route with concerns:
-  #   concern :toggleable do
-  #     post 'toggle'
-  #   end
-  #   resources :posts, concerns: :toggleable
-  #   resources :photos, concerns: :toggleable
-
-  # Example resource route within a namespace:
->>>>>>> 95dc8c639a8344b695ac56b4b1871601f0a1c2df
   #   namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-<<<<<<< HEAD
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
@@ -102,6 +58,4 @@ FirstApp::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
-=======
->>>>>>> 95dc8c639a8344b695ac56b4b1871601f0a1c2df
 end
